@@ -1,0 +1,7 @@
+# Air-Quality-Prediction
+
+This study explores a dataset comprising hourly responses from a gas multisensor device deployed within an urban area in Italy. The dataset, encompassing 9358 instances, records hourly averaged responses from a set of metal oxide chemical sensors integrated into an Air Quality Chemical Multisensor Device. These recordings span from March 2004 to February 2005, providing extensive on-field data on air quality chemical sensor responses. Ground Truth hourly averaged concentrations for several gases were obtained from a co-located certified analyzer, highlighting sensor drifts and cross-sensitivities impacting concentration estimations.
+
+In pursuit of predicting air quality metrics, this research assesses the efficacy of three neural network architectures: Feedforward Networks, LSTM Networks, and GRU Networks. The findings underscore the superiority of LSTM networks in handling time series data by effectively capturing long-term dependencies. The comparative analysis reveals disparities in performance among neural architectures, emphasizing the importance of aligning model choice with data characteristics.
+
+Notably, the study accentuates the significance of comprehensive model evaluation, employing metrics like MAE and MSE to gauge performance robustness. The implications of this research extend to environmental and public health domains, where accurate air quality predictions informed by adept deep learning models can guide policy decisions for environmental preservation and public well-being.
